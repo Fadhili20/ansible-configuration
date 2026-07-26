@@ -1,0 +1,19 @@
+Ansible-Labs/
+├── README.md
+├── inventory
+├── ansible.cfg
+├── playbooks/
+│   ├── install_nginx.yml
+│   ├── install_apache.yml
+│   ├── create_user.yml
+│   ├── deploy_website.yml
+│   └── install_packages.yml
+├── roles/
+│   └── webserver/
+├── templates/
+│   └── index.j2
+├── files/
+│   └── nginx.conf
+├── group_vars/
+├── host_vars/
+└── screenshots/
