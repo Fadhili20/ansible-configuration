@@ -1,2 +1,20 @@
-# ansible-configuration
-Ansible is an open-source automation tool used for:  Server configuration Application deployment Network automation Cloud provisioning Security updates Infrastructure as Code (IaC)  Unlike Puppet and Chef, Ansible does not require agents on managed machines. It uses SSH by default.
+
+Ansible-Labs/
+├── README.md
+├── inventory
+├── ansible.cfg
+├── playbooks/
+│   ├── install_nginx.yml
+│   ├── install_apache.yml
+│   ├── create_user.yml
+│   ├── deploy_website.yml
+│   └── install_packages.yml
+├── roles/
+│   └── webserver/
+├── templates/
+│   └── index.j2
+├── files/
+│   └── nginx.conf
+├── group_vars/
+├── host_vars/
+└── screenshots/
